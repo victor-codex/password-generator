@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>Generate a <span id="green">random password</span></h1>
+      </div>
+      <p>Never use an insecure password again</p>
+      <button onclick="passwordButton()">Generate password</button>
+      <div class="underline"></div>
+      <div class="section-container">
+        <div class="password-box">
+          <div class="password">
+            <span id="second-el"></span>
+            <button class="btn">copy</button>
+          </div>
+        </div>
+        <div class="password-box">
+          <div class="password">
+            <span id="first-el"></span>
+            <button class="btn" onclick="firstCopy()">copy</button>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
